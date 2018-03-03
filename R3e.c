@@ -15,12 +15,12 @@ for(i=1;i<=b;i++)
 {
 if(i%2!=0)
 {
-printf("%c",a[i-1]);
+printf("%c",a[i]);
 }}
 printf("\t");
 for(i=0;i<=b;i++)
 {
-if(i%2!=0)
+if(i%2==0)
 {
 printf("%c",a[i]);    
 }
